@@ -13,7 +13,14 @@
     <!--build out form here-->
     <main>
         <form action="https://hotel-feedback.freecodecamp.org" method="POST">
-            <fieldset></fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <!--input data goges below here-->
+                <label for="full-name">Name (required):</label>
+                <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required>
+                <label for="email">Email address (required):</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </fieldset>
         </form>
     </main>
 </head>
